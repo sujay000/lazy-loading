@@ -1,9 +1,15 @@
-import React from 'react'
+import React from "react";
 
-export default function Image() {
-   return (
-      <div>
-         <img src="https://picsum.photos/400/300" alt="random" />
-      </div>
-   )
+export default function Image(props) {
+  return (
+    <div>
+      <img
+        src={props.src}
+        alt="random"
+        loading="lazy"
+        width="400px"
+        height="300px"
+      />
+    </div>
+  );
 }
