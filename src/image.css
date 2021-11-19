@@ -1,0 +1,19 @@
+.gridItem{
+
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.image{
+   width: 300px;
+   height: 200px;
+   margin: 50px;
+
+}
+
+img{
+   object-fit: cover;
+}
