@@ -1,0 +1,7 @@
+.heading{
+   
+   color: #C8F7F3;
+   margin: 50px 0 30px;
+   background: rgb(10,25,41);
+background: linear-gradient(45deg, rgba(10,25,41,1) 0%, rgba(53,135,222,1) 45%, rgba(10,25,41,1) 99%, rgba(10,25,41,1) 100%);
+}

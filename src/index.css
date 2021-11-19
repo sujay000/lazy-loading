@@ -1,7 +1,9 @@
 @import "./image.css";
+@import "./app.css";
 
 body{
-   background-color: #333;
+   background-color: #0A1929;
    margin: 0;
    padding: 0;
 }
+

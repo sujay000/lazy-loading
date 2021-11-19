@@ -1,6 +1,6 @@
 import React, { Suspense } from "react";
 import { images } from "./data"; 
-import Typography from '@material-ui/core/Typography';
+import Typography from '@mui/material/Typography';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Grid from '@mui/material/Grid';
 const Image = React.lazy(() => import("./Image"));
@@ -10,17 +10,21 @@ const darkTheme = createTheme({
   palette: {
     mode: 'dark',
   },
-});
+  typography : {
+    fontFamily: "'Comforter Brush', cursive",
+  }
+})
 
 function App() {
   return (
 
     <div>
        <ThemeProvider theme={darkTheme}>
-      <Typography variant="h2" align="center" gutterBottom>
-        Lazy Loading Images
-      </Typography>
-
+      <div className="heading">
+        <Typography  variant="h1" align="center" gutterBottom>
+          Lazy Loading Images
+        </Typography>
+      </div>
       <Suspense 
         fallback={
           <div>
