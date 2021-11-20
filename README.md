@@ -4,6 +4,15 @@
 Create a Web Application that should implement lazy loading on an image dataset and display only a few images on the screen at a time.
 The image dataset should contain at least 100 images
 
+Lazy loading is the practice of delaying load or initialization of resources until they’re actually needed to improve performance and save system resources.
+
+The benefits of lazy loading include:
+
+   <ul>
+      <li>Reduces initial load time</li>
+      <li>Bandwidth conservation</li>
+      <li>System resource conservation</li>
+   </ul>
 
 ## Deployment
 
@@ -27,14 +36,13 @@ see it more vividly.
 
 <img src='https://www.linkpicture.com/q/network_2.png' type='image'>
 <br/>
-<br/>
 
 ## Precaution
  Make sure that you 'empty cache and hard reload' every time before you test, otherwise the images would be loaded from the cache.
     To refresh with this option open developer tools, now right-click on the refresh button, and choose that option.
     
 <img src='https://www.linkpicture.com/q/hardReload.png' type='image'>
-
+<br/>
 
 
 ## Color Reference
