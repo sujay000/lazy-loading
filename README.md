@@ -14,13 +14,27 @@ Go to the site https://lazy-loading-sujay000.herokuapp.com/ it is cloud deployed
 
 To run tests and to see the lazy loading implementation,
 1. Open the developer tools (Right-click & click on inspect or Ctrl+Shift+I)
+
+<img src='https://www.linkpicture.com/q/inspect.png' type='image'>
+
 2. Next go to the 'Network' option there.
-3. The images are of HD quality so you would see them loading, but you can control the network speed by throttling, choose slow 3G network to see it more vividly.
+
+3. The images are of HD quality so you would see them loading, but you can control the network speed by throttling, choose the slow 3G network to 
+see it more vividly.
+
 4. Here in the Network section the images loaded are visible, not all images are loaded, now try scrolling the page, more images get added to the loading part which is visible in the Network section. 
+
+
+<img src='https://www.linkpicture.com/q/network_2.png' type='image'>
+<br/>
+<br/>
 
 ## Precaution
  Make sure that you 'empty cache and hard reload' every time before you test, otherwise the images would be loaded from the cache.
     To refresh with this option open developer tools, now right-click on the refresh button, and choose that option.
+    
+<img src='https://www.linkpicture.com/q/hardReload.png' type='image'>
+
 
 
 ## Color Reference
