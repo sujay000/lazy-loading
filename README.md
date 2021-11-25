@@ -44,6 +44,12 @@ see it more vividly.
 <img src='https://www.linkpicture.com/q/hardReload.png' type='image'>
 <br/>
 
+## Reference links
+
+* https://developer.mozilla.org/en-US/docs/Web/Performance/Lazy_loading
+* https://reactjs.org/docs/code-splitting.html
+* https://youtu.be/AActXSWxsRo
+
 
 ## Color Reference
 
