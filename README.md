@@ -19,6 +19,15 @@ The benefits of lazy loading include:
 Go to the site https://lazy-loading-sujay000.herokuapp.com/ it is cloud deployed on herokuapp
 
 
+
+## Project Setup
+
+1. Download/clone the repository
+2. Make sure node and npm are installed in your machine
+3. Run `npm install`
+4. Run `node app.js` to start the project.
+
+
 ## Running Tests
 
 To run tests and to see the lazy loading implementation,
